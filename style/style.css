@@ -1,0 +1,58 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    padding: 25px;
+    width: 500px;
+    height: fit-content;
+    display: flex;
+    border-radius: 5px;
+    border-color: gray;
+    flex-direction: column;
+    justify-items: left;
+    justify-self: center;
+    background-color: lightgray;
+    border: 5px;
+    gap: 20px;
+}
+
+input{
+    color: gray;
+    margin: 5px;
+}
+
+#text{
+    display: flex;
+    width: 483px;
+    gap: 20px;
+    border-radius: 5px;
+}
+
+#button{
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+#next{
+    display: flex;
+    flex-direction: row;
+}
+
+#next-buttons{
+    display: flex;
+    flex-direction: row;
+    border-radius: 30px;
+}
+
+.napdis{
+    display: flex;
+    flex-direction: row;
+}
+
+.recenze{
+    width: 500px;
+    height: 300px;
+}
